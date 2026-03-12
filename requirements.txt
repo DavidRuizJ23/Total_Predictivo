@@ -1,1 +1,9 @@
 streamlit
+pandas
+numpy
+seaborn
+statsmodels
+plotly
+plotly
+sklearn.linear_model 
+matplotlib
