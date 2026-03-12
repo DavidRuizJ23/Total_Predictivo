@@ -4,6 +4,5 @@ numpy
 seaborn
 statsmodels
 plotly
-plotly
-sklearn.linear_model 
+scikit-learn
 matplotlib
