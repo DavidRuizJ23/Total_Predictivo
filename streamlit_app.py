@@ -667,8 +667,8 @@ def main():
                     # 2. Procesamiento y Ponderación
                     ds_model['YearReport'] = ds_model['MonthReport'].dt.year
                     ponderacion_df = pd.DataFrame({
-                        'YearReport': [2022, 2023, 2024, 2025],
-                        'ponderacion': [1.41, 2.05, 4.56, 4.56]
+                        'YearReport': [2022, 2023, 2024, 2025,2026],
+                        'ponderacion': [1, 1, 1, 1,1]
                     })
                     
                     ds_model_r = pd.merge(ds_model, ponderacion_df, on='YearReport', how='left')
